@@ -67,7 +67,7 @@ public class Program
                     {
                     }
                 }
-                Console.WriteLine("Данные добавлены");
+                Console.WriteLine("Данные добавлены!");
                 break;
             case "5":
                 SqlDataReader sqlData1 = SendRequestReader(Employee.GetSQL_SelectEmployees("WHERE Name LIKE 'F%' AND Gender = 'Male'"));
